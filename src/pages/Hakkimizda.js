@@ -5,8 +5,7 @@ export default function Hakkimizda() {
     <div className="container mt-4">
       <h1>Hakkımızda</h1>
       <p>
-        Bu site, oyunlar hakkında temel bilgiler sunmak için hazırlanmıştır.
-        React ile yapılmıştır.
+        Torrent oyun indir torrent dosyaları fitgirl ve dodi repackden alıntıdır
       </p>
     </div>
   );
