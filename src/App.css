@@ -1,0 +1,188 @@
+/* Genel gövde ve font */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212; /* Koyu arka plan */
+  color: #cfcfcf;
+}
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f1f1f;
+  padding: 15px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  color: #ff7a33; /* Canlı turuncu */
+  font-weight: 900;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-shadow: 0 0 6px #ff7a3388;
+}
+
+.navbar .menu a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.navbar .menu a:hover {
+  color: #ff7a33;
+}
+
+.navbar .menu a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ff7a33;
+  transition: width 0.3s ease;
+}
+
+.navbar .menu a:hover::after {
+  width: 100%;
+}
+
+/* Oyun listesi grid */
+.oyun-listesi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 25px;
+}
+
+/* Oyun kartı */
+.oyun-card {
+  background: #222;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(255, 69, 0, 0.3);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 350px;
+}
+
+.oyun-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 10px 30px rgba(255, 69, 0, 0.7);
+}
+
+.oyun-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 3px solid #ff4500;
+  transition: filter 0.3s ease;
+}
+
+.oyun-card:hover img {
+  filter: brightness(1.1);
+}
+
+.oyun-card h3 {
+  color: #ff7a33;
+  font-size: 1.3rem;
+  margin: 15px 15px 0 15px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 3px #ff7a33aa;
+}
+
+/* Oyun detay sayfası */
+.card {
+  background-color: #222;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(255, 69, 0, 0.5);
+}
+
+.card-img-top {
+  width: 460px;
+  height: 215px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 3px solid #ff4500;
+}
+
+.card-body {
+  padding-top: 20px;
+  color: #ddd;
+}
+
+.card-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #ff7a33;
+  text-shadow: 0 0 4px #ff7a3388;
+}
+
+.card p {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff7a33;
+  color: #1a1a1a;
+  font-weight: 700;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px rgba(255, 122, 51, 0.6);
+}
+
+.btn:hover {
+  background-color: #e66b00;
+  box-shadow: 0 7px 20px rgba(230, 107, 0, 0.85);
+}
+
+/* Geri butonu */
+.btn-secondary {
+  background-color: #555;
+  color: #ccc;
+  margin-bottom: 25px;
+  box-shadow: none;
+}
+
+.btn-secondary:hover {
+  background-color: #666;
+  color: #ff7a33;
+  box-shadow: 0 0 12px #ff7a33cc;
+}
+
+/* Container margin top */
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
