@@ -27,6 +27,11 @@ const oyunlar = [
     isim: "Cyberpunk 2077",
     img: "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
   },
+  {
+    id: "thelastofuspart1",
+    isim: "The Last of Us Part 1",
+    img: "https://s3-eu-west-1.amazonaws.com/gb.awsbucket.1/0145862_0.png",
+  },
 ];
 
 export default function Home() {

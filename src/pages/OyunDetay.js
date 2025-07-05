@@ -57,6 +57,17 @@ const oyunlar = [
     onerilen: "Intel Core i7-4790 / 12 GB RAM / Nvidia GTX 1060",
     indirmeLink: "https://www.mediafire.com/file/uphkb9rxxtyqnoo/Cyberpunk2077_FitgirlRepack.torrent/file",
   },
+  {
+    id: "thelastofuspart1",
+    isim: "The Last of Us Part 1",
+    tur: "Aksiyon, Macera",
+    img: "https://s3-eu-west-1.amazonaws.com/gb.awsbucket.1/0145862_0.png",
+    aciklama:
+      "Eleştirel beğeni toplayan televizyon şovuna ilham veren ödüllü oyunu keşfedin. Joel ve Ellie'yi kıyamet sonrası bir Amerika aracılığıyla rehber olun ve The Last of UsTM'de unutulmaz müttefikler ve düşmanlarla karşılaşır.",
+    minimum: "AMD Ryzen 5 1500X, Intel Core i7-4770K / 16 GB RAM / AMD Radeon RX 470 (4 GB), AMD Radeon RX 6500 XT (4 GB), NVIDIA GeForce GTX 970 (4 GB), NVIDIA GeForce GTX 1050 Ti (4 GB)",
+    onerilen: "AMD Ryzen 5 3600X, Intel Core i7-8700 / 16 GB RAM / AMD Radeon RX 5700 XT (8 GB), AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 2070 SUPER (8 GB), NVIDIA GeForce RTX 3060 (8 GB)",
+    indirmeLink: "https://ay.live/KRS5",
+  },
 ];
 
 export default function OyunDetay() {
