@@ -55,7 +55,7 @@ const oyunlar = [
       "Night City’de futuristik aksiyon RPG.",
     minimum: "Intel Core i5-3570K / 8 GB RAM / Nvidia GTX 780",
     onerilen: "Intel Core i7-4790 / 12 GB RAM / Nvidia GTX 1060",
-    indirmeLink: "https://www.mediafire.com/file/uphkb9rxxtyqnoo/Cyberpunk2077_FitgirlRepack.torrent/file",
+    indirmeLink: "https://ay.live/pZddWH",
   },
   {
     id: "thelastofuspart1",
