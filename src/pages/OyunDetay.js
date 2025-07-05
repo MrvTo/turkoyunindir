@@ -11,7 +11,7 @@ const oyunlar = [
       "Los Santos şehrinde geçen devasa açık dünya aksiyon oyunu.",
     minimum: "Intel Core 2 Quad CPU Q6600 / 4 GB RAM / NVIDIA 9800 GT 1GB",
     onerilen: "Intel Core i5 3470 / 8 GB RAM / NVIDIA GTX 660 2GB",
-    indirmeLink: "https://www.mediafire.com/file/m1sk63mn62zyb74/gtav_F%25C4%25B0tgrilReapck.torrent/file",
+    indirmeLink: "https://ay.live/gP7f",
   },
   {
     id: "rdr2",
@@ -22,7 +22,7 @@ const oyunlar = [
       "Vahşi Batı’da epik açık dünya macerası.",
     minimum: "Intel Core i5-2500K / 8 GB RAM / Nvidia GTX 770",
     onerilen: "Intel Core i7-4770K / 12 GB RAM / Nvidia GTX 1060",
-    indirmeLink: "https://www.mediafire.com/file/l4wmqgtr0522p0y/rdr2_dodi_repack.torrent/file",
+    indirmeLink: "https://ay.live/zTRJ",
   },
   {
     id: "hogwartslegacy",
@@ -33,7 +33,7 @@ const oyunlar = [
       "Hogwarts’ta büyücülük ve macera dolu bir RPG oyunu.",
     minimum: "Intel Core i5-6600 / 16 GB RAM / Nvidia GTX 960",
     onerilen: "Intel Core i7-8700 / 16 GB RAM / Nvidia RTX 2060",
-    indirmeLink: "https://www.mediafire.com/file/1yf8kjevoq04v4j/hogwarts_legeacy_dodi_repack.torrent/file",
+    indirmeLink: "https://ay.live/hgCYC",
   },
   {
     id: "uncharted4",
@@ -44,7 +44,7 @@ const oyunlar = [
       "Nate’in son macerası, sürükleyici aksiyon dolu oyun.",
     minimum: "Intel Core i5-2500K / 8 GB RAM / Nvidia GTX 660",
     onerilen: "Intel Core i7-4770K / 12 GB RAM / Nvidia GTX 1060",
-    indirmeLink: "https://www.mediafire.com/file/h1li91172z4gle1/Uncharted_LoTC_FitgirlRepack.torrent/file",
+    indirmeLink: "https://ay.live/R1QDaz",
   },
   {
     id: "cyberpunk2077",
