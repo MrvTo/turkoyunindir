@@ -79,7 +79,7 @@ body {
   background: #222;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(255, 69, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(75, 0, 130, 0.3);
   cursor: pointer;
   display: flex;
   flex-direction: column;
