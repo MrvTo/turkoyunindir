@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-
+import Yorumlar from "../components/Yorumlar";
 const oyunlar = [
   {
     id: "gtav",
@@ -120,6 +120,9 @@ export default function OyunDetay() {
           </a>
         </div>
       </div>
+      
+      <Yorumlar oyunId={oyun.id} />
     </div>
+    
   );
 }

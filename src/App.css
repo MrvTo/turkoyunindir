@@ -167,7 +167,26 @@ body {
   background-color: #e66b00;
   box-shadow: 0 7px 20px rgba(230, 107, 0, 0.85);
 }
+  /* yorum formu butonu için btn sınıfını da ekleyelim */
+.yorum-form button {
+  width: 120px;
+  align-self: flex-end;
+  padding: 12px 25px; /* btn ile aynı */
+  border-radius: 30px; /* btn ile aynı */
+  background-color: #ff7a33; /* btn ile aynı */
+  color: #1a1a1a; /* btn ile aynı */
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 122, 51, 0.6);
+}
 
+.yorum-form button:hover {
+  background-color: #e66b00;
+  box-shadow: 0 7px 20px rgba(230, 107, 0, 0.85);
+}
 /* Geri butonu */
 .btn-secondary {
   background-color: #555;
@@ -208,4 +227,97 @@ body {
 
 .footer strong {
   color: #f39c12;
+}
+
+/* Yorumlar bileşeni genel kutusu */
+.yorumlar-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  color: #e0e0e0;
+  box-shadow: 0 0 15px rgba(30,30,47,0.5);
+  max-width: 700px;
+}
+
+/* Başlık */
+.yorumlar-container h3 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #f39c12;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+/* Yorum formu */
+.yorum-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.yorum-form input[type="text"],
+.yorum-form textarea {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  background-color: #2c2c44;
+  color: #f0f0f0;
+  resize: none;
+  box-shadow: inset 0 0 5px #111122;
+  transition: background-color 0.3s ease;
+}
+
+.yorum-form input[type="text"]:focus,
+.yorum-form textarea:focus {
+  background-color: #3a3a60;
+  outline: none;
+}
+
+/* Gönder butonu */
+.yorum-form button {
+  width: 120px;
+  align-self: flex-end;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #f39c12;
+  color: #1e1e2f;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.yorum-form button:hover {
+  background-color: #e08e0b;
+}
+
+/* Yorum listesi */
+.yorum-listesi {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Tek bir yorum kutusu */
+.yorum {
+  background-color: #2c2c44;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(30,30,47,0.8);
+}
+
+.yorum .isim {
+  font-weight: 700;
+  color: #f39c12;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.yorum .mesaj {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #d1d1d1;
 }
