@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import OyunDetay from "./pages/OyunDetay";
 import Hakkimizda from "./pages/Hakkimizda";
 import Iletisim from "./pages/Iletisim";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -17,12 +18,10 @@ function App() {
         <Route path="/hakkimizda" element={<Hakkimizda />} />
         <Route path="/iletisim" element={<Iletisim />} />
       </Routes>
+
+    <Footer /> {/* footer bileşeni burada çağrılıyor */}
     </Router>
-     <footer>
-  <p>Author: Hege Refsnes</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</footer> 
-  );
+       );
 }
 
 export default App;
