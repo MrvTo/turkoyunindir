@@ -185,4 +185,27 @@ body {
 /* Container margin top */
 .mt-4 {
   margin-top: 1.5rem !important;
+
+/*footer*/
+}
+.footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  border-top: 2px solid #333;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.footer strong {
+  color: #f39c12;
 }
