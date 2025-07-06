@@ -32,6 +32,11 @@ const oyunlar = [
     isim: "The Last of Us Part 1",
     img: "https://s3-eu-west-1.amazonaws.com/gb.awsbucket.1/0145862_0.png",
   },
+  {
+    id: "ageofhistory2",
+    isim: "Age of History II",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/603850/44cea4c564f8c42e995008027e772b330003c187/header.jpg?t=1750701177",
+  },
 ];
 
 export default function Home() {
