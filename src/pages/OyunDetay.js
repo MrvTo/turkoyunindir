@@ -68,6 +68,17 @@ const oyunlar = [
     onerilen: "AMD Ryzen 5 3600X, Intel Core i7-8700 / 16 GB RAM / AMD Radeon RX 5700 XT (8 GB), AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 2070 SUPER (8 GB), NVIDIA GeForce RTX 3060 (8 GB)",
     indirmeLink: "https://ay.live/KRS5",
   },
+  {
+    id: "ageofhistory2",
+    isim: "Age of History",
+    tur: "Strateji, Aksiyon",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/603850/44cea4c564f8c42e995008027e772b330003c187/header.jpg?t=1750701177",
+    aciklama:
+      "Age of History II, öğrenmesi kolay ancak ustalaşması zor olan muhteşem bir strateji savaş oyunudur. Amacınız, dünyayı birleştirmek veya fethetmek için askeri taktikler ve kurnazca diplomasi kullanmaktır. Dünya kan kaybedecek mi yoksa önünüzde eğilecek mi? Seçim sizin...",
+    minimum: "1.8 GHz Single Core / 1 GB RAM / Hardware Accelerated Graphics with dedicated memory",
+    onerilen: "2.4 GHz Single Core / 2 GB RAM / Hardware Accelerated Graphics with dedicated memory",
+    indirmeLink: "https://ay.live/61Qzg",
+  },
 ];
 
 export default function OyunDetay() {
