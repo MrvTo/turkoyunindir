@@ -6,6 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>turktorrentindir</title>
 </head>
+<script type="text/javascript">
+(function(d, w, u){
+const webId = 22729;
+const interval = 30;
+const waitTime = 0;
+var n = d.getElementsByTagName("script")[0],
+s = d.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+s.src = u;
+s.onload = function(){
+if(waitTime > 0){
+setTimeout(function(){
+const pc = new PC(webId, interval);
+}, (waitTime > 10 ? 10 : waitTime) * 1000)
+}else{
+const pc = new PC(webId, interval);
+}
+};
+if(w.opera == "[object Opera]"){
+d.addEventListener("DOMContentLoaded", function(){
+n.parentNode.insertBefore(s, n);
+}, false);
+}else{
+n.parentNode.insertBefore(s, n);
+}
+})(document, window, 'https://flarby.com/cdn/app.min.js');
+</script> 
 <body>
   <div id="root"></div>
 </body>
