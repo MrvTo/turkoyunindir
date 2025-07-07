@@ -79,6 +79,17 @@ const oyunlar = [
     onerilen: "2.4 GHz Single Core / 2 GB RAM / Hardware Accelerated Graphics with dedicated memory",
     indirmeLink: "https://ay.live/61Qzg",
   },
+  {
+    id: "eurotrucksimulator2",
+    isim: "Euro Truck Simulator 2",
+    tur: "Simulasyon, Sürüş, Açık Dünya",
+    img: "https://i0.wp.com/rajzy.pl/wp-content/uploads/2020/10/d95e60p-a4ea0d6a-1db8-4501-9f11-b31ac650150a.png?fit=2000%2C1200&ssl=1",
+    aciklama:
+      "Önemli kargoları etkileyici mesafelere teslim eden bir kamyon şoförü olarak Avrupa'yı dolaşın! Keşfedilecek düzinelerce şehirle dayanıklılığınız, beceriniz ve hızınız sınırlarına kadar zorlanacak.",
+    minimum: "Intel Core i5-6400 or AMD Ryzen 3 1200 or similar / 8 GB RAM / NVIDIA GeForce GTX 660 or AMD Radeon RX 460 or Intel HD 630 (2GB VRAM)",
+    onerilen: "Intel Core i5-9600 or AMD Ryzen 5 3600 or similar / 12 GB RAM / NVIDIA GeForce GTX 1660 or AMD Radeon RX 590 (2GB VRAM)",
+    indirmeLink: "https://ay.live/bw0VF",
+  },
 ];
 
 export default function OyunDetay() {

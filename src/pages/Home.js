@@ -37,6 +37,11 @@ const oyunlar = [
     isim: "Age of History II",
     img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/603850/44cea4c564f8c42e995008027e772b330003c187/header.jpg?t=1750701177",
   },
+  {
+    id: "eurotrucksimulator2",
+    isim: "Euro Truck Simulator 2 ",
+    img: "https://i0.wp.com/rajzy.pl/wp-content/uploads/2020/10/d95e60p-a4ea0d6a-1db8-4501-9f11-b31ac650150a.png?fit=2000%2C1200&ssl=1",
+  },
 ];
 
 export default function Home() {
