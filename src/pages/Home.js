@@ -42,6 +42,11 @@ const oyunlar = [
     isim: "Euro Truck Simulator 2 ",
     img: "https://i0.wp.com/rajzy.pl/wp-content/uploads/2020/10/d95e60p-a4ea0d6a-1db8-4501-9f11-b31ac650150a.png?fit=2000%2C1200&ssl=1",
   },
+  {
+    id: "eldenring2",
+    isim: "Elden Ring Nightreign",
+    img: "https://images8.alphacoders.com/138/1385514.png",
+  },
 ];
 
 export default function Home() {

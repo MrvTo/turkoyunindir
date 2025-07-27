@@ -90,6 +90,17 @@ const oyunlar = [
     onerilen: "Intel Core i5-9600 or AMD Ryzen 5 3600 or similar / 12 GB RAM / NVIDIA GeForce GTX 1660 or AMD Radeon RX 590 (2GB VRAM)",
     indirmeLink: "https://ay.live/bw0VF",
   },
+  {
+    id: "eldenring2",
+    isim: "Elden Ring Nightreign",
+    tur: "Roguelike oyun, Dövüş oyunu, Macera Oyunu, Hayatta Kalma Oyunu",
+    img: "https://images8.alphacoders.com/138/1385514.png",
+    aciklama:
+      "ELDEN RING NIGHTREIGN, oyunun temel tasarımını yeniden yorumlayarak oyunculara yeni bir oyun deneyimi sunmak için tasarlanmış, ELDEN RING evreninde bağımsız bir maceradır.",
+    minimum: "Intel Core i5-10600-AMD RYZEN 5 5500 / 12 GB RAM / Nvidia GTX 1060",
+    onerilen: "Intel Core i5-11500-AMD RYZEN 5 5600 / 16 GB RAM / Nvidia GTX 1070",
+    indirmeLink: "https://ay.live/24FAf",
+  },
 ];
 
 export default function OyunDetay() {
