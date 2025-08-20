@@ -94,7 +94,7 @@ const oyunlar = [
     id: "eldenring2",
     isim: "Elden Ring Nightreign",
     tur: "Roguelike oyun, Dövüş oyunu, Macera Oyunu, Hayatta Kalma Oyunu",
-    img: "https://images8.alphacoders.com/138/1385514.png",
+    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622380/header.jpg?t=1753977256",
     aciklama:
       "ELDEN RING NIGHTREIGN, oyunun temel tasarımını yeniden yorumlayarak oyunculara yeni bir oyun deneyimi sunmak için tasarlanmış, ELDEN RING evreninde bağımsız bir maceradır.",
     minimum: "Intel Core i5-10600-AMD RYZEN 5 5500 / 12 GB RAM / Nvidia GTX 1060",

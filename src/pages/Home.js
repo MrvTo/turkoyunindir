@@ -45,7 +45,7 @@ const oyunlar = [
   {
     id: "eldenring2",
     isim: "Elden Ring Nightreign",
-    img: "https://images8.alphacoders.com/138/1385514.png",
+    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622380/header.jpg?t=1753977256",
   },
   {
     id: "codmw2019",
