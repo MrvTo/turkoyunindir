@@ -101,6 +101,28 @@ const oyunlar = [
     onerilen: "Intel Core i5-11500-AMD RYZEN 5 5600 / 16 GB RAM / Nvidia GTX 1070",
     indirmeLink: "https://ay.live/24FAf",
   },
+  {
+    id: "codmw2019",
+    isim: "Call of Duty Modern Warfare",
+    tur: "Aksiyon, FPS",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2000950/capsule_616x353.jpg?t=1678294805",
+    aciklama:
+      "Duygu yüklü Senaryoyu oyna veya en kapsamlı çevrimiçi arenada kendi ekibini kurup farklı Special Ops meydan okumalarını tamamla ve Çok Oyunculu haritalarda ve modlarda düşmanla çarpış! ",
+    minimum: "Intel Core i5-3570K / 8 GB RAM / Nvidia GTX 670",
+    onerilen: "Intel Core i7-4790 / 12 GB RAM / Nvidia GTX 1660",
+    indirmeLink: "https://ay.live/iMP",
+  },
+  {
+    id: "codmw2022",
+    isim: "Call of Duty Modern Warfare II (2022)",
+    tur: "Aksiyon, FPS",
+    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/ce4d5e53b36cb9d3c4309d1df72bf8663bbbc7ef/header.jpg?t=1755227025",
+    aciklama:
+      "Call of Duty®: Modern Warfare® II ile geri dönen efsanevi Görev Timi 141 Operatörleriyle kendimizi eşi benzeri görülmemiş küresel çatışmaların ortasında buluyoruz. ",
+    minimum: "Intel Core i5-3570K / 8 GB RAM / Nvidia GTX 960",
+    onerilen: "Intel Core i7-4790 / 12 GB RAM / Nvidia GTX 1060",
+    indirmeLink: "https://ay.live/klSz2",
+  },
 ];
 
 export default function OyunDetay() {

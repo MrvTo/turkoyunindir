@@ -47,6 +47,16 @@ const oyunlar = [
     isim: "Elden Ring Nightreign",
     img: "https://images8.alphacoders.com/138/1385514.png",
   },
+  {
+    id: "codmw2019",
+    isim: "Call of Duty Modern Warfare 2019",
+    img: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2000950/capsule_616x353.jpg?t=1678294805",
+  },
+  {
+    id: "codmw2022",
+    isim: "Call of Duty Modern Warfare II (2022)",
+    img: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/ce4d5e53b36cb9d3c4309d1df72bf8663bbbc7ef/header.jpg?t=1755227025",
+  },
 ];
 
 export default function Home() {
