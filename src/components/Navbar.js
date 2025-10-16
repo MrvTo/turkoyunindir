@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="menu">
           <Link to="/">Ana Sayfa</Link>
           <Link to="/hakkimizda">Hakkımızda</Link>
-          <Link to="/iletisim">İletişim</Link>
+          <Link to="/iletisim">Easter Egg</Link>
         </div>
       </div>
     </nav>
